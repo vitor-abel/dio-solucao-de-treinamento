@@ -1,0 +1,123 @@
+<ImportExportXml version="9.2.23123.210" SolutionPackageVersion="9.2" languagecode="1046" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>SolucaoDeTreinamento</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Solução de Treinamento" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.1</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>dio</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="dio" languagecode="1046" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>dio</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91430</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="curso_cursosdisponiveis" behavior="0" />
+      <RootComponent type="1" schemaName="dio_aluno" behavior="0" />
+      <RootComponent type="1" schemaName="dio_alunosxcursosdisponiveis" behavior="0" />
+      <RootComponent type="1" schemaName="dio_cursos" behavior="0" />
+      <RootComponent type="1" schemaName="dio_cursoxinstrutores" behavior="0" />
+      <RootComponent type="1" schemaName="dio_instrutor" behavior="0" />
+      <RootComponent type="1" schemaName="dio_treinamento" behavior="0" />
+      <RootComponent type="1" schemaName="dio_treinamentoxinstrutor" behavior="0" />
+      <RootComponent type="29" id="{08af6484-6aa9-ee11-a569-000d3ac049c8}" behavior="0" />
+      <RootComponent type="29" id="{1b8c2d4c-9831-4276-8c52-68dc51e14b06}" behavior="0" />
+      <RootComponent type="29" id="{6739b18a-b6a4-ee11-a569-000d3ac049c8}" behavior="0" />
+      <RootComponent type="29" id="{99872f57-645f-4e3a-ad25-53f582e3309a}" behavior="0" />
+      <RootComponent type="61" schemaName="dio_BibliotecaJS" behavior="0" />
+      <RootComponent type="61" schemaName="dio_LogotipoDIO" behavior="0" />
+      <RootComponent type="61" schemaName="dio_scriptcallactioncep" behavior="0" />
+      <RootComponent type="61" schemaName="dio_scriptribbon" behavior="0" />
+      <RootComponent type="62" schemaName="dio_Treinamento" behavior="0" />
+      <RootComponent type="80" schemaName="dio_Treinamento" behavior="0" />
+      <RootComponent type="300" schemaName="dio_gestodecursos_48e26" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="29" displayName="PowerAppV2 -&gt; Enviar um email (V2)" solution="Active" id="{0b43467f-87b1-ee11-a569-000d3ac049c8}" />
+        <Dependent type="300" schemaName="dio_gestodecursos_48e26" displayName="Gestão de Cursos" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2312.3020)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cursos" id="{19486726-268a-4121-8b88-06a0fc5f2d1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2312.3020)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Treinamento" id="{7d06f3a2-8ec5-4164-aabc-18743a97a76b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="70" displayName="Treinamento" solution="Active" id="{a0aa3151-bea4-ee11-a569-000d3ac049c8}" />
+        <Dependent type="70" displayName="Treinamento" id="{a0aa3151-bea4-ee11-a569-000d3ac049c8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="90" schemaName="ProjetoDesafioII.WFValidaLimiteInscricoesAluno, ProjetoDesafioII, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9eb60b1aced56210" displayName="ProjetoDesafioII.WFValidaLimiteInscricoesAluno" solution="Active" id="{e0ef3de9-3e88-473a-b580-c1cd36c5f008}" />
+        <Dependent type="29" displayName="Workflow Validar Quantidade Inscrições do Aluno" id="{99872f57-645f-4e3a-ad25-53f582e3309a}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
